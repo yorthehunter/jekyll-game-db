@@ -16,3 +16,9 @@ markdown: kramdown
 
 include:
   - .nojekyll
+
+exclude:
+  - "bower_components"
+  - "bower.json"
+  - "node_modules"
+  - "package.json"
