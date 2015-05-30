@@ -22,3 +22,17 @@ exclude:
   - "bower.json"
   - "node_modules"
   - "package.json"
+
+navigation:
+ - title: Home
+   url: /index.html
+ - title: Base
+   url: /base/
+ - title: Elements
+   url: /elements/
+ - title: Modules
+   url: /modules/
+ - title: Structure
+   url: /structure/
+ - title: Theme
+   url: /theme/
