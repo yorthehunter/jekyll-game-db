@@ -4,7 +4,5 @@
 @charset "utf-8";
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "../vendor/css/humble_kit.scss",
-        "syntax-highlighting"
-;
+@import "../vendor/css/humble_kit.scss";
+@import "syntax-highlighting.scss";
