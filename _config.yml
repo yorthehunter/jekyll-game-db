@@ -25,7 +25,7 @@ exclude:
 
 navigation:
  - title: Home
-   url: /home/
+   url: /../
  - title: Base
    url: /base/
  - title: Elements

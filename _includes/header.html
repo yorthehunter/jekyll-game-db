@@ -10,7 +10,7 @@
         {% if page.url contains link.url %}
           {% assign current = 'current' %}
         {% endif %}
-        <a href="{{ site.baseurl }}{{ link.url }}"
+        <a href="{{ site.baseurl }}/site{{ link.url }}"
            class="btn btn-sm btn-secondary btn-outline {% if forloop.first %}round-l{% endif %} {{ current }} {% if forloop.last %}round-r{% endif %}">
           {{ link.title }}
         </a>
