@@ -1,6 +1,3 @@
 _site
 .sass-cache
 .idea
-/bower-components/
-/node_modules/
-/vendor/
