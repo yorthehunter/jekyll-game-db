@@ -3,18 +3,22 @@
 <dom-module id="configurable-name-tag">
   <template>
     <!-- bind to the "owner" property -->
-    This is <b>{{owner}}</b>'s configurable-name-tag element.
+    This is <b>{{buttonStyle}}</b>'s <b>{{buttonSize}}</b>'s configurable-name-tag element.
   </template>
 </dom-module>
 
 <script>
+
   Polymer({
     is: "configurable-name-tag",
     properties: {
-      // declare the owner property
-      owner: {
-        type: String,
-        value: "Daniel"
+      buttonStyle: {
+        type:  String,
+        value: "Fuck"
+      },
+      buttonSize: {
+        type:  String,
+        value: "You"
       }
     }
   });

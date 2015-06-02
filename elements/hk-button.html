@@ -2,24 +2,28 @@
 
 <dom-module id="hk-button">
   <template>
-    <button class="btn {{ button_style }} {{ button_size }}">
-      <content></content>
+    <button class="{{ {'btn-lg': buttonStyle.value='lg', 'btn-xl': buttonStyle.value='xl'} | tokenList }}" attributes="buttonPrefix buttonStyle buttonSize">
+      <span>{{ buttonStyle }}</span> <span>{{ buttonSize }}</span>
     </button>
   </template>
 </dom-module>
 
 <script>
+
   Polymer({
     is: "hk-button",
     properties: {
-      // declare the owner property
-      button_style: {
-        type: String,
-        value: "btn-default"
+      buttonPrefix: {
+        type:  String,
+        value: "btn"
       },
-      button_size: {
+      buttonStyle: {
         type: String,
-        value: "btn-md"
+        value: "btn btn-lg btn-primary"
+      },
+      buttonSize: {
+        type: String,
+        value: "lg"
       }
     }
   });
