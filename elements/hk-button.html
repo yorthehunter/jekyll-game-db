@@ -1,8 +1,6 @@
-<link rel="import" href="/humblekit-experiment/bower_components/polymer/polymer.html">
-
 <dom-module id="hk-button">
   <template>
-    <button class="{{ {'btn-lg': buttonStyle.value='lg', 'btn-xl': buttonStyle.value='xl'} | tokenList }}" attributes="buttonPrefix buttonStyle buttonSize">
+    <button class="{{ {'btn-lg': buttonStyle.value='lg', 'btn-xl': buttonStyle.value='xl'} | tokenList }}">
       <span>{{ buttonStyle }}</span> <span>{{ buttonSize }}</span>
     </button>
   </template>
