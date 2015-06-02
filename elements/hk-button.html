@@ -1,20 +1,25 @@
 <link rel="import" href="/humblekit-experiment/bower_components/polymer/polymer.html">
 
-<dom-module id="configurable-name-tag">
+<dom-module id="hk-button">
   <template>
-    <!-- bind to the "owner" property -->
-    This is <b>{{owner}}</b>'s configurable-name-tag element.
+    <button class="btn {{ button_style }} {{ button_size }}">
+      <content></content>
+    </button>
   </template>
 </dom-module>
 
 <script>
   Polymer({
-    is: "configurable-name-tag",
+    is: "hk-button",
     properties: {
       // declare the owner property
-      owner: {
+      button_style: {
         type: String,
-        value: "Daniel"
+        value: "btn-default"
+      },
+      button_size: {
+        type: String,
+        value: "btn-md"
       }
     }
   });
