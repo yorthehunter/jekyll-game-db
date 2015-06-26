@@ -46,10 +46,19 @@
   active: true
 - name: Deja Vu
   alt_name:
-  purchased_on:
-  purchase_price:
+  purchased_on: 05-20-14
+  purchase_price: 4.13
   system: nes
   includes:
+  images:
+    - url:
+  active: true
+- name: Deja Vu
+  alt_name:
+  purchased_on: 05-04-15
+  purchase_price: 8.50
+  system: nes
+  includes: cib
   images:
     - url:
   active: true
@@ -154,10 +163,10 @@
   active: true
 - name: "Robin Hood: Prince of Thieves"
   alt_name:
-  purchased_on:
-  purchase_price:
+  purchased_on: 06-07-15
+  purchase_price: 13.53
   system: nes
-  includes:
+  includes: cib
   images:
     - url:
   active: true
@@ -361,8 +370,8 @@
   active: true
 - name: The Magic of Scheherazade
   alt_name:
-  purchased_on:
-  purchase_price:
+  purchased_on: 06-12-15
+  purchase_price: 7.53
   system: nes
   includes:
   images:
@@ -469,8 +478,8 @@
   active: true
 - name: Clash at Demonhead
   alt_name:
-  purchased_on:
-  purchase_price:
+  purchased_on: 06-12-15
+  purchase_price: 10.50
   system: nes
   includes: box
   images:
@@ -478,8 +487,8 @@
   active: true
 - name: Total Recall
   alt_name:
-  purchased_on:
-  purchase_price:
+  purchased_on: 06-08-15
+  purchase_price: 8.27
   system: nes
   includes: cib
   images:
@@ -506,26 +515,8 @@
   active: true
 - name: Double Dribble
   alt_name:
-  purchased_on:
-  purchase_price:
-  system: nes
-  includes: cib
-  images:
-    - url:
-  active: true
-- name: Deja Vu
-  alt_name:
-  purchased_on: 05-20-14
-  purchase_price: 4.13
-  system: nes
-  includes:
-  images:
-    - url:
-  active: true
-- name: Deja Vu
-  alt_name:
-  purchased_on:
-  purchase_price:
+  purchased_on: 06-01-15
+  purchase_price: 4.25
   system: nes
   includes: cib
   images:

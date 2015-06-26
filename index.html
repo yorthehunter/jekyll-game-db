@@ -2,6 +2,39 @@
 layout: default
 ---
 
+<div class="container">
+  <table>
+    <thead>
+    <tr>
+      <th>Name</th>
+      <th>Purchase Date</th>
+      <th>Price</th>
+      <th>System</th>
+      <th>Includes</th>
+    </tr>
+    </thead>
+    <tfoot>
+
+    </tfoot>
+    <tbody>
+    {% for game in site.data.games %}
+    <tr>
+      <td>{{ game.name }}</td>
+      <td>{{ game.purchased_on }}</td>
+      <td>{{ game.purchase_price }}</td>
+      <td>{{ game.system }}</td>
+      <td>{{ game.includes }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+
+</div>
+
+
+
+
+
 <div class="home container">
 
   <h1 class="page-heading">Posts</h1>
