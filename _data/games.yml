@@ -19,7 +19,7 @@
   active: true
 - name: Bugs Bunny Birthday Blowout
   alt_name:
-  purchased_on: 09-14-2014
+  purchased_on: 09-14-14
   purchase_price: 4.45
   system: nes
   includes:
@@ -379,7 +379,7 @@
   active: true
 - name: Little Nemo the Dreammaster
   alt_name:
-  purchased_on: 05-17-2014
+  purchased_on: 05-17-14
   purchase_price: 4.99
   system: nes
   includes:
@@ -679,7 +679,7 @@
   active: true
 - name: Front Mission
   alt_name:
-  purchased_on: 11-05-2014
+  purchased_on: 11-05-14
   purchase_price: 4.25
   system: sfc
   includes: cib
@@ -688,7 +688,7 @@
   active: true
 - name: Front Mission Gun Hazard
   alt_name:
-  purchased_on: 11-05-2014
+  purchased_on: 11-05-14
   purchase_price: 4.25
   system: sfc
   includes: cib
@@ -706,7 +706,7 @@
   active: true
 - name: Star Ocean
   alt_name:
-  purchased_on: 11-09-2014
+  purchased_on: 11-09-14
   purchase_price: 15.50
   system: sfc
   includes: cib
