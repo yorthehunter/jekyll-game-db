@@ -1,0 +1,35 @@
+.tablesorter {
+
+  .header {
+    cursor: pointer;
+
+    &.headerSortUp,
+    &.headerSortDown {
+      &:after {
+        content: '';
+        width: 0;
+        height: 0;
+        line-height: 2rem;
+        position: relative;
+        left: 0.25rem;
+      }
+    }
+
+    &.headerSortUp {
+      &:after {
+        border-right:  3px solid transparent;
+        border-left:   3px solid transparent;
+        border-bottom: 3px solid $text-base-color;
+        top: -0.25rem;
+      }
+    }
+    &.headerSortDown {
+      &:after {
+        border-right: 3px solid transparent;
+        border-left:  3px solid transparent;
+        border-top:   3px solid $text-base-color;
+        top: 1.25rem;
+      }
+    }
+  }
+}

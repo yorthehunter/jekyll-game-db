@@ -2,8 +2,11 @@
 ---
 
 $(document).ready ->
-  $('.js-sortable-table').tablesorter()
-#
+  $('.js-sortable-table').tablesorter sortList: [[
+                                                   0
+                                                   0
+                                                 ]]
+
 #  $('.js-date').each() ->
 #    thisdate = new Date($(this).text())
 #    $(this).text(thisdate)
