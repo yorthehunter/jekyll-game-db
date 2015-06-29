@@ -12,6 +12,7 @@ $(document).ready ->
 #    $(this).text(thisdate)
 
   colSum()
+  $('.js-sortable-table').stickyTableHeaders()
 
 
 colSum = ->
