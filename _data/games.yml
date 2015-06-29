@@ -806,7 +806,7 @@
   alt_name: Earthbound
   short_name: mother2
   purchased_on: 10-23-14
-  purchase_price: 16.50
+  purchase_price: 22.50
   system: sfc
   includes: cib
   images:
@@ -905,8 +905,8 @@
 - name: Dragon Quest V
   alt_name: Dragon Warrior V
   short_name: dq5_v2
-  purchased_on:
-  purchase_price:
+  purchased_on: 05-03-15
+  purchase_price: 5.04
   system: sfc
   includes: cib
   images:
@@ -925,8 +925,8 @@
 - name: Dragon Quest VI
   alt_name: Dragon Warrior VI
   short_name: dq6_v2
-  purchased_on:
-  purchase_price:
+  purchased_on: 05-03-15
+  purchase_price: 6.50
   system: sfc
   includes: cib
   images:
@@ -935,8 +935,8 @@
 - name: Dragon Quest VI
   alt_name: Dragon Warrior VI
   short_name: dq6_v3
-  purchased_on:
-  purchase_price:
+  purchased_on: 05-21-15
+  purchase_price: 2.25
   system: sfc
   includes: cib
   images:
@@ -945,8 +945,8 @@
 - name: Mother 2
   alt_name: Earthbound
   short_name: mother2_v2
-  purchased_on:
-  purchase_price:
+  purchased_on: 10-23-14
+  purchase_price: 16.50
   system: sfc
   includes: instructions
   images:
