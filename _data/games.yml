@@ -1,6 +1,7 @@
 
 - name: Crystalis
   alt_name:
+  short_name: crystalis
   purchased_on: 05-18-14
   purchase_price: 8.27
   system: nes
@@ -10,6 +11,7 @@
   active: true
 - name: Double Dragon 2
   alt_name:
+  short_name: double_dragon_2
   purchased_on: 05-18-14
   purchase_price: 7.01
   system: nes
@@ -19,6 +21,7 @@
   active: true
 - name: Bugs Bunny Birthday Blowout
   alt_name:
+  short_name: bugs_bunny_birthday_blowout
   purchased_on: 09-14-14
   purchase_price: 4.45
   system: nes
@@ -28,6 +31,7 @@
   active: true
 - name: Simon's Quest
   alt_name: Castlevania II
+  short_name: castlevania_2
   purchased_on: 05-23-14
   purchase_price: 5.75
   system: nes
@@ -37,6 +41,7 @@
   active: true
 - name: Chip n' Dale Rescue Rangers
   alt_name:
+  short_name: chip_n_dale
   purchased_on: 05-23-14
   purchase_price: 9.99
   system: nes
@@ -46,6 +51,7 @@
   active: true
 - name: Deja Vu
   alt_name:
+  short_name: deja_vu
   purchased_on: 05-20-14
   purchase_price: 4.13
   system: nes
@@ -55,6 +61,7 @@
   active: true
 - name: Deja Vu
   alt_name:
+  short_name: deja_vu_v2
   purchased_on: 05-04-15
   purchase_price: 8.50
   system: nes
@@ -64,6 +71,7 @@
   active: true
 - name: Duck Tales
   alt_name:
+  short_name: duck_tales
   purchased_on:
   purchase_price:
   system: nes
@@ -73,6 +81,7 @@
   active: true
 - name: Gauntlet II
   alt_name:
+  short_name: gauntlet_2
   purchased_on:
   purchase_price:
   system: nes
@@ -82,6 +91,7 @@
   active: true
 - name: The Goonies II
   alt_name: Goonies 2
+  short_name: goonies_2
   purchased_on: 05-18-14
   purchase_price: 5.50
   system: nes
@@ -91,6 +101,7 @@
   active: true
 - name: Ice Hockey
   alt_name:
+  short_name: ice_hockey
   purchased_on: 05-24-14
   purchase_price: 3.40
   system: nes
@@ -100,6 +111,7 @@
   active: true
 - name: Jaws
   alt_name:
+  short_name: jaws
   purchased_on: 05-24-14
   purchase_price: 5.25
   system: nes
@@ -109,6 +121,7 @@
   active: true
 - name: Kid Niki
   alt_name:
+  short_name: kid_niki
   purchased_on:
   purchase_price:
   system: nes
@@ -118,6 +131,7 @@
   active: true
 - name: Ninja Gaiden
   alt_name:
+  short_name: ninja_gaiden
   purchased_on:
   purchase_price:
   system: nes
@@ -127,6 +141,7 @@
   active: true
 - name: Milon's Secret Castle
   alt_name:
+  short_name: milon
   purchased_on: 09-14-14
   purchase_price: 3.55
   system: nes
@@ -136,6 +151,7 @@
   active: true
 - name: Monopoly
   alt_name:
+  short_name: monopoly
   purchased_on: 09-14-14
   purchase_price: 2.67
   system: nes
@@ -145,6 +161,7 @@
   active: true
 - name: Nightshade
   alt_name:
+  short_name: nightshade
   purchased_on: 09-29-14
   purchase_price: 8.00
   system: nes
@@ -154,6 +171,7 @@
   active: true
 - name: Rampage
   alt_name:
+  short_name: rampage
   purchased_on:
   purchase_price:
   system: nes
@@ -163,6 +181,7 @@
   active: true
 - name: "Robin Hood: Prince of Thieves"
   alt_name:
+  short_name: robin_hood
   purchased_on: 06-07-15
   purchase_price: 13.53
   system: nes
@@ -172,6 +191,7 @@
   active: true
 - name: "Robin Hood: Prince of Thieves"
   alt_name:
+  short_name: robin_hood
   purchased_on: 05-21-14
   purchase_price: 3.25
   system: nes
@@ -181,6 +201,7 @@
   active: true
 - name: Shadowgate
   alt_name:
+  short_name: shadowgate
   purchased_on: 05-18-14
   purchase_price: 6.50
   system: nes
@@ -190,6 +211,7 @@
   active: true
 - name: "Super Mario Bros. / Duck Hunt"
   alt_name:
+  short_name: mario1_duck_hunt
   purchased_on: 05-25-14
   purchase_price: 6.66
   system: nes
@@ -199,6 +221,7 @@
   active: true
 - name: Super Mario Bros. 2
   alt_name:
+  short_name: mario2
   purchased_on: 05-25-14
   purchase_price: 6.66
   system: nes
@@ -208,6 +231,7 @@
   active: true
 - name: Super Mario Bros. 3
   alt_name:
+  short_name: mario3
   purchased_on: 05-25-14
   purchase_price: 6.66
   system: nes
@@ -217,6 +241,7 @@
   active: true
 - name: Super Mario Bros. 3
   alt_name:
+  short_name: mario3_v2
   purchased_on: 05-24-14
   purchase_price: 11.00
   system: nes
@@ -226,6 +251,7 @@
   active: true
 - name: Super Mario Bros. 3
   alt_name:
+  short_name: mario3_v3
   purchased_on:
   purchase_price:
   system: nes
@@ -235,6 +261,7 @@
   active: true
 - name: "Super Spike V'ball / Nintendo World Cup"
   alt_name:
+  short_name: superspike_world_cup
   purchased_on: 05-24-14
   purchase_price: 2.99
   system: nes
@@ -244,6 +271,7 @@
   active: true
 - name: Tecmo Bowl
   alt_name:
+  short_name: tecmo_bowl
   purchased_on:
   purchase_price:
   system: nes
@@ -253,6 +281,7 @@
   active: true
 - name: Teenage Mutant Ninja Turtles
   alt_name: TMNT
+  short_name: tmnt
   purchased_on: 05-18-14
   purchase_price: 3.00
   system: nes
@@ -262,6 +291,7 @@
   active: true
 - name: StarTropics
   alt_name:
+  short_name: startropics
   purchased_on: 05-25-14
   purchase_price: 5.99
   system: nes
@@ -271,6 +301,7 @@
   active: true
 - name: StarTropics
   alt_name:
+  short_name: startropics_v2
   purchased_on: 04-26-15
   purchase_price: 26.75
   system: nes
@@ -280,6 +311,7 @@
   active: true
 - name: Willow
   alt_name:
+  short_name: willow
   purchased_on: 04-22-15
   purchase_price: 14.99
   system: nes
@@ -289,6 +321,7 @@
   active: true
 - name: Totally Rad
   alt_name:
+  short_name: totally_rad
   purchased_on:
   purchase_price:
   system: nes
@@ -298,6 +331,7 @@
   active: true
 - name: Uninvited
   alt_name:
+  short_name: uninvited
   purchased_on: 09-29-14
   purchase_price: 20.50
   system: nes
@@ -307,6 +341,7 @@
   active: true
 - name: Wizards and Warriors III
   alt_name:
+  short_name: wizards_warriors_3
   purchased_on: 09-14-14
   purchase_price: 12.55
   system: nes
@@ -316,6 +351,7 @@
   active: true
 - name: Wrath of the Black Manta
   alt_name:
+  short_name: wrath_of_the_black_manta
   purchased_on: 09-14-14
   purchase_price: 3.55
   system: nes
@@ -325,6 +361,7 @@
   active: true
 - name: X-Men
   alt_name:
+  short_name: xmen
   purchased_on:
   purchase_price:
   system: nes
@@ -334,6 +371,7 @@
   active: true
 - name: Blaster Master
   alt_name:
+  short_name: blaster_master
   purchased_on: 05-29-14
   purchase_price: 6.50
   system: nes
@@ -343,6 +381,7 @@
   active: true
 - name: Castlevania
   alt_name:
+  short_name: castlevania
   purchased_on:
   purchase_price:
   system: nes
@@ -352,6 +391,7 @@
   active: true
 - name: R.C. Pro-am
   alt_name:
+  short_name: rc_proam
   purchased_on:
   purchase_price:
   system: nes
@@ -359,8 +399,9 @@
   images:
     - url:
   active: true
-- name: Guerilla War
+- name: Guerrilla War
   alt_name:
+  short_name: guerrilla
   purchased_on: 05-24-14
   purchase_price: 5.99
   system: nes
@@ -370,6 +411,7 @@
   active: true
 - name: The Magic of Scheherazade
   alt_name:
+  short_name: scheherazade
   purchased_on: 06-12-15
   purchase_price: 7.53
   system: nes
@@ -379,6 +421,7 @@
   active: true
 - name: Little Nemo the Dreammaster
   alt_name:
+  short_name: nemo
   purchased_on: 05-17-14
   purchase_price: 4.99
   system: nes
@@ -388,6 +431,7 @@
   active: true
 - name: Krusty's Funhouse
   alt_name:
+  short_name: krusty
   purchased_on:
   purchase_price:
   system: nes
@@ -397,6 +441,7 @@
   active: true
 - name: Felix the Cat
   alt_name:
+  short_name: felix
   purchased_on:
   purchase_price:
   system: nes
@@ -406,6 +451,7 @@
   active: true
 - name: Tetris
   alt_name:
+  short_name: tetris
   purchased_on:
   purchase_price:
   system: nes
@@ -415,6 +461,7 @@
   active: true
 - name: "Super Mario Bros. / Duck Hunt"
   alt_name:
+  short_name: mario1_duckhunt_v2
   purchased_on:
   purchase_price:
   system: nes
@@ -424,6 +471,7 @@
   active: true
 - name: Jeopardy Junior Edition
   alt_name:
+  short_name: jeopardy_jr
   purchased_on:
   purchase_price:
   system: nes
@@ -433,6 +481,7 @@
   active: true
 - name: Pac-Man
   alt_name:
+  short_name: pacman
   purchased_on:
   purchase_price:
   system: nes
@@ -442,6 +491,7 @@
   active: true
 - name: Gauntlet
   alt_name:
+  short_name: gauntlet
   purchased_on:
   purchase_price:
   system: nes
@@ -451,6 +501,7 @@
   active: true
 - name: Tiny Toon Adventures
   alt_name:
+  short_name: tiny_toon
   purchased_on:
   purchase_price:
   system: nes
@@ -460,6 +511,7 @@
   active: true
 - name: "Teenage Mutant Ninja Turtles 2: The Arcade Game"
   alt_name: TMNT 2
+  short_name: tmnt_2
   purchased_on:
   purchase_price:
   system: nes
@@ -469,6 +521,7 @@
   active: true
 - name: Who Framed Roger Rabbit
   alt_name: Roger Rabbit
+  short_name: roger_rabbit
   purchased_on: 05-24-14
   purchase_price: 6.00
   system: nes
@@ -478,6 +531,7 @@
   active: true
 - name: Clash at Demonhead
   alt_name:
+  short_name: demonhead
   purchased_on: 06-12-15
   purchase_price: 10.50
   system: nes
@@ -487,6 +541,7 @@
   active: true
 - name: Total Recall
   alt_name:
+  short_name: total_recall
   purchased_on: 06-08-15
   purchase_price: 8.27
   system: nes
@@ -497,6 +552,7 @@
   active: true
 - name: Willow
   alt_name:
+  short_name: willow_v2
   purchased_on: 05-24-14
   purchase_price: 7.00
   system: nes
@@ -506,6 +562,7 @@
   active: true
 - name: The Terminator
   alt_name:
+  short_name: terminator
   purchased_on:
   purchase_price:
   system: nes
@@ -515,6 +572,7 @@
   active: true
 - name: Double Dribble
   alt_name:
+  short_name: double_dribble
   purchased_on: 06-01-15
   purchase_price: 4.25
   system: nes
@@ -524,6 +582,7 @@
   active: true
 - name: The Little Mermaid
   alt_name:
+  short_name: mermaid
   purchased_on:
   purchase_price:
   system: nes
@@ -533,6 +592,7 @@
   active: true
 - name: Home Alone
   alt_name:
+  short_name: home_alone
   purchased_on:
   purchase_price:
   system: nes
@@ -542,6 +602,7 @@
   active: true
 - name: Superspike V'ball
   alt_name:
+  short_name: superspike
   purchased_on:
   purchase_price:
   system: nes
@@ -551,6 +612,7 @@
   active: true
 - name: John Elliot's Quarterback
   alt_name:
+  short_name: john_elliot
   purchased_on:
   purchase_price:
   system: nes
@@ -560,6 +622,7 @@
   active: true
 - name: The Battle of Olympus
   alt_name:
+  short_name: olympus
   purchased_on: 05-25-14
   purchase_price: 4.00
   system: nes
@@ -569,6 +632,7 @@
   active: true
 - name: Strider
   alt_name:
+  short_name: strider
   purchased_on: 04-26-15
   purchase_price: 18.50
   system: nes
@@ -578,6 +642,7 @@
   active: true
 - name: "Robin Hood: Prince of Thieves"
   alt_name:
+  short_name: robin_hood_v2
   purchased_on:
   purchase_price:
   system: nes
@@ -587,6 +652,7 @@
   active: true
 - name: StarTropics
   alt_name:
+  short_name: startropics_v2
   purchased_on:
   purchase_price:
   system: nes
@@ -597,6 +663,7 @@
 
 - name: Dragon Quest IV
   alt_name: Dragon Warrior 4
+  short_name: dq4
   purchased_on: 11-13-14
   purchase_price: 5.00
   system: famicom
@@ -606,6 +673,7 @@
   active: true
 - name: Dragon Quest III
   alt_name: Dragon Warrior 3
+  short_name: dq3
   purchased_on: 04-27-15
   purchase_price: 4.25
   system: famicom
@@ -615,6 +683,7 @@
   active: true
 - name: Dragon Quest II
   alt_name: Dragon Warrior 2
+  short_name: dq2
   purchased_on: 04-27-15
   purchase_price: 1.51
   system: famicom
@@ -624,6 +693,7 @@
   active: true
 - name: Final Fantasy III
   alt_name:
+  short_name: ff3
   purchased_on: 02-21-15
   purchase_price: 8.50
   system: famicom
@@ -633,6 +703,7 @@
   active: true
 - name: Final Fantasy III
   alt_name:
+  short_name: ff3_v2
   purchased_on: 03-09-15
   purchase_price: 2.25
   system: famicom
@@ -642,6 +713,7 @@
   active: true
 - name: Labyrinth
   alt_name:
+  short_name: labyrinth
   purchased_on: 11-09-14
   purchase_price: 35.00
   system: famicom
@@ -652,6 +724,7 @@
 
 - name: Dark Half
   alt_name:
+  short_name: dark_half
   purchased_on: 11-08-14
   purchase_price: 4.75
   system: sfc
@@ -661,6 +734,7 @@
   active: true
 - name: Breath of Fire
   alt_name:
+  short_name: bof
   purchased_on: 11-15-14
   purchase_price: 5.00
   system: sfc
@@ -670,6 +744,7 @@
   active: true
 - name: Seiken Densetsu II
   alt_name: Secret of Mana
+  short_name: som
   purchased_on: 03-04-15
   purchase_price: 5.09
   system: sfc
@@ -679,6 +754,7 @@
   active: true
 - name: Front Mission
   alt_name:
+  short_name: front_mission
   purchased_on: 11-05-14
   purchase_price: 4.25
   system: sfc
@@ -688,6 +764,7 @@
   active: true
 - name: Front Mission Gun Hazard
   alt_name:
+  short_name: gun_hazard
   purchased_on: 11-05-14
   purchase_price: 4.25
   system: sfc
@@ -697,6 +774,7 @@
   active: true
 - name: Chrono Trigger
   alt_name:
+  short_name: chrono
   purchased_on: 10-22-14
   purchase_price: 16.99
   system: sfc
@@ -706,6 +784,7 @@
   active: true
 - name: Star Ocean
   alt_name:
+  short_name: star_ocean
   purchased_on: 11-09-14
   purchase_price: 15.50
   system: sfc
@@ -715,6 +794,7 @@
   active: true
 - name: Mickey's Magical Adventure
   alt_name: The Magical Quest Starring Mickey Mouse
+  short_name: mickey
   purchased_on: 11-05-14
   purchase_price: 9.50
   system: sfc
@@ -724,6 +804,7 @@
   active: true
 - name: Mother 2
   alt_name: Earthbound
+  short_name: mother2
   purchased_on: 10-23-14
   purchase_price: 16.50
   system: sfc
@@ -733,6 +814,7 @@
   active: true
 - name: Final Fantasy Mystic Quest
   alt_name:
+  short_name: ffmq
   purchased_on: 11-02-14
   purchase_price: 14.99
   system: sfc
@@ -742,6 +824,7 @@
   active: true
 - name: Final Fantasy IV
   alt_name: Final Fantasy 2
+  short_name: ff4
   purchased_on: 10-12-14
   purchase_price: 19.00
   system: sfc
@@ -751,6 +834,7 @@
   active: true
 - name: Final Fantasy V
   alt_name:
+  short_name: ff5
   purchased_on: 10-12-14
   purchase_price: 19.00
   system: sfc
@@ -760,6 +844,7 @@
   active: true
 - name: Final Fantasy VI
   alt_name: Final Fantasy 3
+  short_name: ff6
   purchased_on: 10-12-14
   purchase_price: 19.00
   system: sfc
@@ -769,6 +854,7 @@
   active: true
 - name: Final Fantasy VI
   alt_name: Final Fantasy 3
+  short_name: ff6_v2
   purchased_on: 11-08-14
   purchase_price: 13.60
   system: sfc
@@ -778,6 +864,7 @@
   active: true
 - name: Final Fantasy VI
   alt_name: Final Fantasy 3
+  short_name: ff6_v3
   purchased_on: 05-03-15
   purchase_price: 6.50
   system: sfc
@@ -787,6 +874,7 @@
   active: true
 - name: Dragon Quest I and II
   alt_name: Dragon Warrior I and II
+  short_name: dq1_2
   purchased_on: 04-29-15
   purchase_price: 16.00
   system: sfc
@@ -796,6 +884,7 @@
   active: true
 - name: Dragon Quest III
   alt_name: Dragon Warrior III
+  short_name: dq3_v2
   purchased_on: 04-29-15
   purchase_price: 8.50
   system: sfc
@@ -805,6 +894,7 @@
   active: true
 - name: Dragon Quest V
   alt_name: Dragon Warrior V
+  short_name: dq5
   purchased_on: 10-12-14
   purchase_price: 12.00
   system: sfc
@@ -814,6 +904,7 @@
   active: true
 - name: Dragon Quest V
   alt_name: Dragon Warrior V
+  short_name: dq5_v2
   purchased_on:
   purchase_price:
   system: sfc
@@ -823,6 +914,7 @@
   active: true
 - name: Dragon Quest VI
   alt_name: Dragon Warrior VI
+  short_name: dq6
   purchased_on: 10-12-14
   purchase_price: 15.00
   system: sfc
@@ -832,6 +924,7 @@
   active: true
 - name: Dragon Quest VI
   alt_name: Dragon Warrior VI
+  short_name: dq6_v2
   purchased_on:
   purchase_price:
   system: sfc
@@ -841,6 +934,7 @@
   active: true
 - name: Dragon Quest VI
   alt_name: Dragon Warrior VI
+  short_name: dq6_v3
   purchased_on:
   purchase_price:
   system: sfc
@@ -850,6 +944,7 @@
   active: true
 - name: Mother 2
   alt_name: Earthbound
+  short_name: mother2_v2
   purchased_on:
   purchase_price:
   system: sfc
@@ -857,17 +952,9 @@
   images:
     - url:
   active: true
-- name: Mother 2
-  alt_name: Earthbound
-  purchased_on: 05-03-15
-  purchase_price: 22.50
-  system: sfc
-  includes: instructions
-  images:
-    - url:
-  active: true
 - name: Rockman X
   alt_name: Megaman X
+  short_name: mmx
   purchased_on: 11-01-14
   purchase_price: 8.66
   system: sfc
@@ -877,6 +964,7 @@
   active: true
 - name: Rockman X2
   alt_name: Megaman X2
+  short_name: mmx2
   purchased_on: 11-01-14
   purchase_price: 8.66
   system: sfc
@@ -886,6 +974,7 @@
   active: true
 - name: Soul Blader
   alt_name: Soul Blazer
+  short_name: soulblazer
   purchased_on: 10-28-14
   purchase_price: 2.25
   system: sfc
@@ -895,6 +984,7 @@
   active: true
 - name: Dragon Ball Z
   alt_name:
+  short_name: dbz
   purchased_on: 11-02-14
   purchase_price: 2.66
   system: sfc
@@ -904,6 +994,7 @@
   active: true
 - name: Dragon Ball Z 2
   alt_name:
+  short_name: dbz2
   purchased_on: 11-02-14
   purchase_price: 2.66
   system: sfc
@@ -913,6 +1004,7 @@
   active: true
 - name: Dragon Ball Z 3
   alt_name:
+  short_name: dbz3
   purchased_on: 11-02-14
   purchase_price: 2.66
   system: sfc
@@ -922,6 +1014,7 @@
   active: true
 - name: Super Mario Kart
   alt_name:
+  short_name: mariokart
   purchased_on: 11-01-14
   purchase_price: 3.50
   system: sfc
@@ -931,6 +1024,7 @@
   active: true
 - name: Super Mario RPG
   alt_name:
+  short_name: mariorpg
   purchased_on: 11-01-14
   purchase_price: 3.50
   system: sfc
@@ -940,6 +1034,7 @@
   active: true
 - name: Super Mario World
   alt_name:
+  short_name: marioworld
   purchased_on: 11-01-14
   purchase_price: 3.50
   system: sfc
@@ -949,6 +1044,7 @@
   active: true
 - name: Street Figher II
   alt_name:
+  short_name: sf2
   purchased_on: 11-01-14
   purchase_price: 8.66
   system: sfc
@@ -958,6 +1054,7 @@
   active: true
 - name: Super Off-road the Baja
   alt_name:
+  short_name: baja
   purchased_on: 12-01-14
   purchase_price: 3.00
   system: snes
@@ -967,6 +1064,7 @@
   active: true
 - name: "The Legend of Zelda: A Link to the Past"
   alt_name: Zelda 3
+  short_name: zelda3
   purchased_on:
   purchase_price:
   system: snes
@@ -976,6 +1074,7 @@
   active: true
 - name: Top Gear
   alt_name:
+  short_name: top_gear
   purchased_on: 09-29-14
   purchase_price: 5.15
   system: snes
@@ -985,6 +1084,7 @@
   active: true
 - name: Super Metroid
   alt_name:
+  short_name: super_metroid
   purchased_on:
   purchase_price:
   system: snes
@@ -994,6 +1094,7 @@
   active: true
 - name: Yoshi's Island
   alt_name:
+  short_name: marioworld2
   purchased_on:
   purchase_price:
   system: snes
@@ -1003,6 +1104,7 @@
   active: true
 - name: Mortal Kombat
   alt_name:
+  short_name: mk
   purchased_on:
   purchase_price:
   system: snes
@@ -1012,6 +1114,7 @@
   active: true
 - name: Shadowrun
   alt_name:
+  short_name: shadowrun
   purchased_on: 12-15-14
   purchase_price: 45.00
   system: snes
@@ -1021,6 +1124,7 @@
   active: true
 - name: Street Fighter 2 Turbo
   alt_name:
+  short_name: sf2_turbo
   purchased_on:
   purchase_price:
   system: snes
@@ -1030,6 +1134,7 @@
   active: true
 - name: Sim City
   alt_name:
+  short_name: simcity
   purchased_on: 03-02-15
   purchase_price: 7.49
   system: snes
@@ -1039,6 +1144,7 @@
   active: true
 - name: Super Mario Kart
   alt_name:
+  short_name: mariokart_v2
   purchased_on:
   purchase_price:
   system: snes
@@ -1048,6 +1154,7 @@
   active: true
 - name: Illusion of Gaia
   alt_name:
+  short_name: gaia
   purchased_on:
   purchase_price:
   system: snes
@@ -1057,6 +1164,7 @@
   active: true
 - name: Super Mario All-stars
   alt_name:
+  short_name: marioallstars
   purchased_on:
   purchase_price:
   system: snes
@@ -1066,6 +1174,7 @@
   active: true
 - name: Pac Man 2 the New Adventures
   alt_name:
+  short_name: pacman2
   purchased_on: 12-01-14
   purchase_price: 4.00
   system: snes
@@ -1075,6 +1184,7 @@
   active: true
 - name: Nintendo 64 Console
   alt_name:
+  short_name: n64
   purchased_on: 02-15-15
   purchase_price: 20.00
   system: n64
@@ -1084,6 +1194,7 @@
   active: true
 - name: Super Mario 64
   alt_name:
+  short_name: mario64
   purchased_on: 02-15-15
   purchase_price: 10.00
   system: n64
@@ -1093,6 +1204,7 @@
   active: true
 - name: Super Mario Kart 64
   alt_name:
+  short_name: mariokart64
   purchased_on: 02-15-15
   purchase_price: 10.00
   system: n64
@@ -1102,6 +1214,7 @@
   active: true
 - name: Phantasy Star IV
   alt_name:
+  short_name: phantasy_star_4
   purchased_on: 09-24-14
   purchase_price: 18.07
   system: genesis
@@ -1111,6 +1224,7 @@
   active: true
 - name: Flashback the Quest for Identity
   alt_name: Flashback
+  short_name: flashback
   purchased_on: 10-05-14
   purchase_price: 1.25
   system: genesis
@@ -1120,6 +1234,7 @@
   active: true
 - name: Metroid Fusion
   alt_name:
+  short_name: metroid_fusion
   purchased_on: 09-26-14
   purchase_price: 11.50
   system: gba
@@ -1129,6 +1244,7 @@
   active: true
 - name: Phantasy Star Collection
   alt_name:
+  short_name: phantasy_star_collection
   purchased_on: 09-22-14
   purchase_price: 11.95
   system: gba
@@ -1139,6 +1255,7 @@
 
 - name: Dragon Quest III
   alt_name: Dragon Warrior 3
+  short_name: dq3_v3
   purchased_on: 04-28-15
   purchase_price: 6.09
   system: gbc

@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="container">
-  <table id="myTable" class="tablesorter">
+  <table class="js-sortable-table tablesorter">
     <thead>
       <tr>
         <th>Name</th>
@@ -14,43 +14,43 @@ layout: default
       </tr>
     </thead>
     <tfoot>
-
+      <td colspan="2" class="text-r">Total:</td>
+      <td colspan="3" class="js-total-price"></td>
     </tfoot>
     <tbody>
       {% for game in site.data.games %}
       <tr>
         <td>{{ game.name }}</td>
         <td class="js-date">{{ game.purchased_on }}</td>
-        <td>{{ game.purchase_price | prepend: '$' }}</td>
+        <td class="js-price">{{ game.purchase_price }}</td>
         <td>{{ game.system }}</td>
         <td>{{ game.includes }}</td>
       </tr>
       {% endfor %}
     </tbody>
   </table>
-
 </div>
 
 
 
 
 
-<div class="home container">
+<!--<div class="home container">-->
 
-  <h1 class="page-heading">Posts</h1>
+  <!--<h1 class="page-heading">Posts</h1>-->
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <!--<ul class="post-list">-->
+    <!--{% for post in site.posts %}-->
+      <!--<li>-->
+        <!--<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>-->
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+        <!--<h2>-->
+          <!--<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>-->
+        <!--</h2>-->
+      <!--</li>-->
+    <!--{% endfor %}-->
+  <!--</ul>-->
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <!--<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>-->
 
-</div>
+<!--</div>-->
