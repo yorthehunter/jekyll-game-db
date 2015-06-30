@@ -2,14 +2,6 @@
 ---
 
 $(document).ready ->
-  $('.js-sortable-table').tablesorter
-    sortList: [[
-     0
-     0
-    ]],
-    headers:
-      5:
-        sorter: false
 
 #  $('.js-date').each() ->
 #    thisdate = new Date($(this).text())
@@ -17,6 +9,17 @@ $(document).ready ->
 
   colSum()
   $('.js-sortable-table').stickyTableHeaders()
+
+  $('.js-sortable-table').DataTable
+    paging: false,
+    'columnDefs': [{
+      'orderable': false
+      'targets': 5
+    }]
+
+
+
+
 
   $('.js-price-selector-all').change ->
     $(this).attr('checked', false)
