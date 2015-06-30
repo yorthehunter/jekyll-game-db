@@ -10,7 +10,7 @@ layout: default
         <th class="line2">Purchase Date</th>
         <th class="line2">System</th>
         <th class="line2">Includes</th>
-        <th class="line2">Price</th>
+        <th class="line2 js-summed-price-display">Price</th>
         <th class="text-c">
           <label class="btn btn-link btn-sm px2 mr0" for="all-price-selector">
             <input class="js-price-selector-all" type="checkbox" id="all-price-selector"/>
@@ -27,10 +27,10 @@ layout: default
       <tr>
         <td>{{ game.name }}</td>
         <td class="js-date">{{ game.purchased_on }}</td>
-        <td>{{ game.system }}</td>
+        <td><a href="#" class="js-system-select" data-system="{{ game.system }}">{{ game.system }}</a></td>
         <td>{{ game.includes }}</td>
         <td class="js-price text-r">{{ game.purchase_price }}</td>
-        <td>
+        <td class="js-price-selector-parent">
           {% if game.purchase_price != nil %}
           <label class="btn btn-link px2 mr0" for="{{ game.name }}-price-selector">
             <input class="js-price-selector" type="checkbox" id="{{ game.name }}-price-selector" />
