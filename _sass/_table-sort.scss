@@ -4,30 +4,51 @@
     cursor: pointer;
     position: relative;
 
+    &:after {
+      content: '';
+      width: 0;
+      height: 0;
+      position: absolute;
+      top: 1.25rem;
+      left: 0;
+      border-right: 3px solid transparent;
+      border-left: 3px solid transparent;
+      border-bottom: 3px solid $ghost-black-base;
+    }
+
+    &:before {
+      content: '';
+      width: 0;
+      height: 0;
+      position: absolute;
+      top: 1.5rem;
+      left: 0;
+      border-right: 3px solid transparent;
+      border-left: 3px solid transparent;
+      border-top: 3px solid $ghost-black-base;
+    }
+
     &.headerSortUp,
     &.headerSortDown {
+      color: $link-color;
+
       &:after {
         content: '';
         width: 0;
         height: 0;
         position: absolute;
-        top: 1.25rem;
-        left: 0.5rem;
+        left: 0;
       }
     }
 
     &.headerSortUp {
       &:after {
-        border-right:  3px solid transparent;
-        border-left:   3px solid transparent;
-        border-bottom: 3px solid $text-base-color;
+        border-bottom: 3px solid $link-color;
       }
     }
     &.headerSortDown {
-      &:after {
-        border-right: 3px solid transparent;
-        border-left:  3px solid transparent;
-        border-top:   3px solid $text-base-color;
+      &:before {
+        border-top:   3px solid $link-color;
       }
     }
   }
