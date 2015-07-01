@@ -12,14 +12,11 @@ $(document).ready ->
 
   $('.js-sortable-table').DataTable
     paging: false,
+    "order": [1, 'asc'],
     'columnDefs': [{
       'orderable': false
-      'targets': 5
+      'targets': 6
     }]
-
-
-
-
 
   $('.js-price-selector-all').change ->
     $(this).attr('checked', false)

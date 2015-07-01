@@ -6,6 +6,7 @@ layout: default
   <table class="js-sortable-table tablesorter table-condensed">
     <thead class="bg-ghost-white-dark">
       <tr>
+        <th class="line2">Img</th>
         <th class="line2">Name</th>
         <th class="line2">Purchase Date</th>
         <th class="line2">System</th>
@@ -19,13 +20,20 @@ layout: default
       </tr>
     </thead>
     <tfoot>
-      <td colspan="4" class="text-r">Total:</td>
+      <td colspan="5" class="text-r">Total:</td>
       <td class="js-total-price text-r"></td>
       <td></td>
     </tfoot>
     <tbody>
       {% for game in site.data.games %}
       <tr>
+        <td>
+          {% for image in game.images %}
+            <a href="{{ image.url }}" target="_blank">
+              {{ forloop.index | minus: 1 }}
+            </a>
+          {% endfor %}
+        </td>
         <td>{{ game.name }}</td>
         <td class="js-date">{{ game.purchased_on }}</td>
         <td><a href="#" class="js-system-select" data-system="{{ game.system }}">{{ game.system }}</a></td>
