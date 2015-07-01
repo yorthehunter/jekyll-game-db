@@ -41,8 +41,8 @@ layout: default
         <td class="js-price text-r">{{ game.purchase_price }}</td>
         <td class="js-price-selector-parent">
           {% if game.purchase_price != nil %}
-          <label class="btn btn-link px2 mr0" for="{{ game.name }}-price-selector">
-            <input class="js-price-selector" type="checkbox" id="{{ game.name }}-price-selector" />
+          <label class="btn btn-link px2 mr0" for="price-selector-{{ forloop.index }}">
+            <input class="js-price-selector" type="checkbox" id="price-selector-{{ forloop.index }}" />
           </label>
           {% else %}
             <span class="line3">&nbsp;</span>
