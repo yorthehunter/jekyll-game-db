@@ -1,8 +1,45 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
 
-<div class="container">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Your awesome title</title>
+  <meta name="description" content="">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="/js/main.js"></script>
+  <script src="/js/jquery.tablesorter.min.js"></script>
+  <script src="/js/jquery.stickytableheaders.min.js"></script>
+  <script src="//cdn.datatables.net/1.10.7/js/jquery.dataTables.min.js"></script>
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="/">
+  <link rel="alternate" type="application/rss+xml" title="Your awesome title" href="/feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="site-header container">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Your awesome title</a>
+
+    <nav class="btn-group">
+      
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="container">
   <table class="js-sortable-table tablesorter table-condensed">
     <thead class="bg-ghost-white-dark">
       <tr>
@@ -25,31 +62,2253 @@ layout: default
       <td></td>
     </tfoot>
     <tbody>
-      {% for game in site.data.games %}
+      
       <tr>
         <td>
-          {% for image in game.images %}
-            <a href="{{ image.url }}" target="_blank">
-              {{ forloop.index | minus: 1 }}
-            </a>
-          {% endfor %}
+          
         </td>
-        <td>{{ game.name }}</td>
-        <td class="js-date">{{ game.purchased_on }}</td>
-        <td><a href="#" class="js-system-select" data-system="{{ game.system }}">{{ game.system }}</a></td>
-        <td>{{ game.includes }}</td>
-        <td class="js-price text-r">{{ game.purchase_price }}</td>
+        <td>Crystalis</td>
+        <td class="js-date">05-18-14</td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td>instructions</td>
+        <td class="js-price text-r">8.27</td>
         <td class="js-price-selector-parent">
-          {% if game.purchase_price != nil %}
-          <label class="btn btn-link px2 mr0" for="price-selector-{{ forloop.index }}">
-            <input class="js-price-selector" type="checkbox" id="price-selector-{{ forloop.index }}" />
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-1">
+            <input class="js-price-selector" type="checkbox" id="price-selector-1" />
           </label>
-          {% else %}
-            <span class="line3">&nbsp;</span>
-          {% endif %}
+          
         </td>
       </tr>
-      {% endfor %}
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Double Dragon 2</td>
+        <td class="js-date">05-18-14</td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td></td>
+        <td class="js-price text-r">7.01</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-2">
+            <input class="js-price-selector" type="checkbox" id="price-selector-2" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Bugs Bunny Birthday Blowout</td>
+        <td class="js-date">09-14-14</td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td></td>
+        <td class="js-price text-r">4.45</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-3">
+            <input class="js-price-selector" type="checkbox" id="price-selector-3" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Simon's Quest</td>
+        <td class="js-date">05-23-14</td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td></td>
+        <td class="js-price text-r">5.75</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-4">
+            <input class="js-price-selector" type="checkbox" id="price-selector-4" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Chip n' Dale Rescue Rangers</td>
+        <td class="js-date">05-23-14</td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td></td>
+        <td class="js-price text-r">9.99</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-5">
+            <input class="js-price-selector" type="checkbox" id="price-selector-5" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Deja Vu</td>
+        <td class="js-date">05-20-14</td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td></td>
+        <td class="js-price text-r">4.13</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-6">
+            <input class="js-price-selector" type="checkbox" id="price-selector-6" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Deja Vu</td>
+        <td class="js-date">05-04-15</td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td>cib</td>
+        <td class="js-price text-r">8.5</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-7">
+            <input class="js-price-selector" type="checkbox" id="price-selector-7" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Duck Tales</td>
+        <td class="js-date"></td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td></td>
+        <td class="js-price text-r"></td>
+        <td class="js-price-selector-parent">
+          
+            <span class="line3">&nbsp;</span>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Gauntlet II</td>
+        <td class="js-date"></td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td></td>
+        <td class="js-price text-r"></td>
+        <td class="js-price-selector-parent">
+          
+            <span class="line3">&nbsp;</span>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>The Goonies II</td>
+        <td class="js-date">05-18-14</td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td>instructions</td>
+        <td class="js-price text-r">5.5</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-10">
+            <input class="js-price-selector" type="checkbox" id="price-selector-10" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Ice Hockey</td>
+        <td class="js-date">05-24-14</td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td></td>
+        <td class="js-price text-r">3.4</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-11">
+            <input class="js-price-selector" type="checkbox" id="price-selector-11" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Jaws</td>
+        <td class="js-date">05-24-14</td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td></td>
+        <td class="js-price text-r">5.25</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-12">
+            <input class="js-price-selector" type="checkbox" id="price-selector-12" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Kid Niki</td>
+        <td class="js-date"></td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td></td>
+        <td class="js-price text-r"></td>
+        <td class="js-price-selector-parent">
+          
+            <span class="line3">&nbsp;</span>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Ninja Gaiden</td>
+        <td class="js-date"></td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td>instructions</td>
+        <td class="js-price text-r"></td>
+        <td class="js-price-selector-parent">
+          
+            <span class="line3">&nbsp;</span>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Milon's Secret Castle</td>
+        <td class="js-date">09-14-14</td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td></td>
+        <td class="js-price text-r">3.55</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-15">
+            <input class="js-price-selector" type="checkbox" id="price-selector-15" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Monopoly</td>
+        <td class="js-date">09-14-14</td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td></td>
+        <td class="js-price text-r">2.67</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-16">
+            <input class="js-price-selector" type="checkbox" id="price-selector-16" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Nightshade</td>
+        <td class="js-date">09-29-14</td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td></td>
+        <td class="js-price text-r">8.0</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-17">
+            <input class="js-price-selector" type="checkbox" id="price-selector-17" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Rampage</td>
+        <td class="js-date"></td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td></td>
+        <td class="js-price text-r"></td>
+        <td class="js-price-selector-parent">
+          
+            <span class="line3">&nbsp;</span>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Robin Hood: Prince of Thieves</td>
+        <td class="js-date">06-07-15</td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td>cib</td>
+        <td class="js-price text-r">13.53</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-19">
+            <input class="js-price-selector" type="checkbox" id="price-selector-19" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Robin Hood: Prince of Thieves</td>
+        <td class="js-date">05-21-14</td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td></td>
+        <td class="js-price text-r">3.25</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-20">
+            <input class="js-price-selector" type="checkbox" id="price-selector-20" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Shadowgate</td>
+        <td class="js-date">05-18-14</td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td>instructions</td>
+        <td class="js-price text-r">6.5</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-21">
+            <input class="js-price-selector" type="checkbox" id="price-selector-21" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Super Mario Bros. / Duck Hunt</td>
+        <td class="js-date">05-25-14</td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td></td>
+        <td class="js-price text-r">6.66</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-22">
+            <input class="js-price-selector" type="checkbox" id="price-selector-22" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Super Mario Bros. 2</td>
+        <td class="js-date">05-25-14</td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td></td>
+        <td class="js-price text-r">6.66</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-23">
+            <input class="js-price-selector" type="checkbox" id="price-selector-23" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Super Mario Bros. 3</td>
+        <td class="js-date">05-25-14</td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td></td>
+        <td class="js-price text-r">6.66</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-24">
+            <input class="js-price-selector" type="checkbox" id="price-selector-24" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Super Mario Bros. 3</td>
+        <td class="js-date">05-24-14</td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td></td>
+        <td class="js-price text-r">11.0</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-25">
+            <input class="js-price-selector" type="checkbox" id="price-selector-25" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Super Mario Bros. 3</td>
+        <td class="js-date"></td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td>instructions</td>
+        <td class="js-price text-r"></td>
+        <td class="js-price-selector-parent">
+          
+            <span class="line3">&nbsp;</span>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Super Spike V'ball / Nintendo World Cup</td>
+        <td class="js-date">05-24-14</td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td></td>
+        <td class="js-price text-r">2.99</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-27">
+            <input class="js-price-selector" type="checkbox" id="price-selector-27" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Tecmo Bowl</td>
+        <td class="js-date"></td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td></td>
+        <td class="js-price text-r"></td>
+        <td class="js-price-selector-parent">
+          
+            <span class="line3">&nbsp;</span>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Teenage Mutant Ninja Turtles</td>
+        <td class="js-date">05-18-14</td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td></td>
+        <td class="js-price text-r">3.0</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-29">
+            <input class="js-price-selector" type="checkbox" id="price-selector-29" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>StarTropics</td>
+        <td class="js-date">05-25-14</td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td></td>
+        <td class="js-price text-r">5.99</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-30">
+            <input class="js-price-selector" type="checkbox" id="price-selector-30" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>StarTropics</td>
+        <td class="js-date">04-26-15</td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td>cib</td>
+        <td class="js-price text-r">26.75</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-31">
+            <input class="js-price-selector" type="checkbox" id="price-selector-31" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Willow</td>
+        <td class="js-date">04-22-15</td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td>cib</td>
+        <td class="js-price text-r">14.99</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-32">
+            <input class="js-price-selector" type="checkbox" id="price-selector-32" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Totally Rad</td>
+        <td class="js-date"></td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td></td>
+        <td class="js-price text-r"></td>
+        <td class="js-price-selector-parent">
+          
+            <span class="line3">&nbsp;</span>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Uninvited</td>
+        <td class="js-date">09-29-14</td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td></td>
+        <td class="js-price text-r">20.5</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-34">
+            <input class="js-price-selector" type="checkbox" id="price-selector-34" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Wizards and Warriors III</td>
+        <td class="js-date">09-14-14</td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td></td>
+        <td class="js-price text-r">12.55</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-35">
+            <input class="js-price-selector" type="checkbox" id="price-selector-35" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Wrath of the Black Manta</td>
+        <td class="js-date">09-14-14</td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td></td>
+        <td class="js-price text-r">3.55</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-36">
+            <input class="js-price-selector" type="checkbox" id="price-selector-36" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>X-Men</td>
+        <td class="js-date"></td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td></td>
+        <td class="js-price text-r"></td>
+        <td class="js-price-selector-parent">
+          
+            <span class="line3">&nbsp;</span>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Blaster Master</td>
+        <td class="js-date">05-29-14</td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td></td>
+        <td class="js-price text-r">6.5</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-38">
+            <input class="js-price-selector" type="checkbox" id="price-selector-38" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Castlevania</td>
+        <td class="js-date"></td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td></td>
+        <td class="js-price text-r"></td>
+        <td class="js-price-selector-parent">
+          
+            <span class="line3">&nbsp;</span>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>R.C. Pro-am</td>
+        <td class="js-date"></td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td></td>
+        <td class="js-price text-r"></td>
+        <td class="js-price-selector-parent">
+          
+            <span class="line3">&nbsp;</span>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Guerrilla War</td>
+        <td class="js-date">05-24-14</td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td></td>
+        <td class="js-price text-r">5.99</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-41">
+            <input class="js-price-selector" type="checkbox" id="price-selector-41" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>The Magic of Scheherazade</td>
+        <td class="js-date">06-12-15</td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td></td>
+        <td class="js-price text-r">7.53</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-42">
+            <input class="js-price-selector" type="checkbox" id="price-selector-42" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Little Nemo the Dreammaster</td>
+        <td class="js-date">05-17-14</td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td></td>
+        <td class="js-price text-r">4.99</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-43">
+            <input class="js-price-selector" type="checkbox" id="price-selector-43" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Krusty's Funhouse</td>
+        <td class="js-date"></td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td></td>
+        <td class="js-price text-r"></td>
+        <td class="js-price-selector-parent">
+          
+            <span class="line3">&nbsp;</span>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Felix the Cat</td>
+        <td class="js-date"></td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td>instructions</td>
+        <td class="js-price text-r"></td>
+        <td class="js-price-selector-parent">
+          
+            <span class="line3">&nbsp;</span>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Tetris</td>
+        <td class="js-date"></td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td></td>
+        <td class="js-price text-r"></td>
+        <td class="js-price-selector-parent">
+          
+            <span class="line3">&nbsp;</span>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Super Mario Bros. / Duck Hunt</td>
+        <td class="js-date"></td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td>instructions</td>
+        <td class="js-price text-r"></td>
+        <td class="js-price-selector-parent">
+          
+            <span class="line3">&nbsp;</span>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Jeopardy Junior Edition</td>
+        <td class="js-date"></td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td></td>
+        <td class="js-price text-r"></td>
+        <td class="js-price-selector-parent">
+          
+            <span class="line3">&nbsp;</span>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Pac-Man</td>
+        <td class="js-date"></td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td></td>
+        <td class="js-price text-r"></td>
+        <td class="js-price-selector-parent">
+          
+            <span class="line3">&nbsp;</span>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Gauntlet</td>
+        <td class="js-date"></td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td></td>
+        <td class="js-price text-r"></td>
+        <td class="js-price-selector-parent">
+          
+            <span class="line3">&nbsp;</span>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Tiny Toon Adventures</td>
+        <td class="js-date"></td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td></td>
+        <td class="js-price text-r"></td>
+        <td class="js-price-selector-parent">
+          
+            <span class="line3">&nbsp;</span>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Teenage Mutant Ninja Turtles 2: The Arcade Game</td>
+        <td class="js-date"></td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td></td>
+        <td class="js-price text-r"></td>
+        <td class="js-price-selector-parent">
+          
+            <span class="line3">&nbsp;</span>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Who Framed Roger Rabbit</td>
+        <td class="js-date">05-24-14</td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td>box</td>
+        <td class="js-price text-r">6.0</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-53">
+            <input class="js-price-selector" type="checkbox" id="price-selector-53" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Clash at Demonhead</td>
+        <td class="js-date">06-12-15</td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td>box</td>
+        <td class="js-price text-r">10.5</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-54">
+            <input class="js-price-selector" type="checkbox" id="price-selector-54" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Total Recall</td>
+        <td class="js-date">06-08-15</td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td>cib</td>
+        <td class="js-price text-r">8.27</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-55">
+            <input class="js-price-selector" type="checkbox" id="price-selector-55" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Willow</td>
+        <td class="js-date">05-24-14</td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td></td>
+        <td class="js-price text-r">7.0</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-56">
+            <input class="js-price-selector" type="checkbox" id="price-selector-56" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>The Terminator</td>
+        <td class="js-date"></td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td>cib</td>
+        <td class="js-price text-r"></td>
+        <td class="js-price-selector-parent">
+          
+            <span class="line3">&nbsp;</span>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Double Dribble</td>
+        <td class="js-date">06-01-15</td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td>cib</td>
+        <td class="js-price text-r">4.25</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-58">
+            <input class="js-price-selector" type="checkbox" id="price-selector-58" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>The Little Mermaid</td>
+        <td class="js-date"></td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td>cib</td>
+        <td class="js-price text-r"></td>
+        <td class="js-price-selector-parent">
+          
+            <span class="line3">&nbsp;</span>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Home Alone</td>
+        <td class="js-date"></td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td>cib</td>
+        <td class="js-price text-r"></td>
+        <td class="js-price-selector-parent">
+          
+            <span class="line3">&nbsp;</span>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Superspike V'ball</td>
+        <td class="js-date"></td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td>cib</td>
+        <td class="js-price text-r"></td>
+        <td class="js-price-selector-parent">
+          
+            <span class="line3">&nbsp;</span>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>John Elliot's Quarterback</td>
+        <td class="js-date"></td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td>cib</td>
+        <td class="js-price text-r"></td>
+        <td class="js-price-selector-parent">
+          
+            <span class="line3">&nbsp;</span>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>The Battle of Olympus</td>
+        <td class="js-date">05-25-14</td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td>box</td>
+        <td class="js-price text-r">4.0</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-63">
+            <input class="js-price-selector" type="checkbox" id="price-selector-63" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Strider</td>
+        <td class="js-date">04-26-15</td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td>cib</td>
+        <td class="js-price text-r">18.5</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-64">
+            <input class="js-price-selector" type="checkbox" id="price-selector-64" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Robin Hood: Prince of Thieves</td>
+        <td class="js-date"></td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td>box</td>
+        <td class="js-price text-r"></td>
+        <td class="js-price-selector-parent">
+          
+            <span class="line3">&nbsp;</span>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>StarTropics</td>
+        <td class="js-date"></td>
+        <td><a href="#" class="js-system-select" data-system="nes">nes</a></td>
+        <td>cib</td>
+        <td class="js-price text-r"></td>
+        <td class="js-price-selector-parent">
+          
+            <span class="line3">&nbsp;</span>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+            <a href="http://res.cloudinary.com/yorthehunter/image/upload/v1425437966/dlumdrsje7p4lcvfgvkt.jpg" target="_blank">
+              0
+            </a>
+          
+            <a href="http://res.cloudinary.com/yorthehunter/image/upload/v1425437965/r2zfefoia6xoqxxjgb5k.jpg" target="_blank">
+              1
+            </a>
+          
+            <a href="http://res.cloudinary.com/yorthehunter/image/upload/v1425437964/uqchefarpeuwvrqd5ub9.jpg" target="_blank">
+              2
+            </a>
+          
+            <a href="http://res.cloudinary.com/yorthehunter/image/upload/v1425437966/sezg0nlls0a50aeugckm.jpg" target="_blank">
+              3
+            </a>
+          
+        </td>
+        <td>Dragon Quest IV</td>
+        <td class="js-date">11-13-14</td>
+        <td><a href="#" class="js-system-select" data-system="famicom">famicom</a></td>
+        <td>cib</td>
+        <td class="js-price text-r">5.0</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-67">
+            <input class="js-price-selector" type="checkbox" id="price-selector-67" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Dragon Quest III</td>
+        <td class="js-date">04-27-15</td>
+        <td><a href="#" class="js-system-select" data-system="famicom">famicom</a></td>
+        <td>cib</td>
+        <td class="js-price text-r">4.25</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-68">
+            <input class="js-price-selector" type="checkbox" id="price-selector-68" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Dragon Quest II</td>
+        <td class="js-date">04-27-15</td>
+        <td><a href="#" class="js-system-select" data-system="famicom">famicom</a></td>
+        <td>cib</td>
+        <td class="js-price text-r">1.51</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-69">
+            <input class="js-price-selector" type="checkbox" id="price-selector-69" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Final Fantasy III</td>
+        <td class="js-date">02-21-15</td>
+        <td><a href="#" class="js-system-select" data-system="famicom">famicom</a></td>
+        <td>cib</td>
+        <td class="js-price text-r">8.5</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-70">
+            <input class="js-price-selector" type="checkbox" id="price-selector-70" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Final Fantasy III</td>
+        <td class="js-date">03-09-15</td>
+        <td><a href="#" class="js-system-select" data-system="famicom">famicom</a></td>
+        <td>cib</td>
+        <td class="js-price text-r">2.25</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-71">
+            <input class="js-price-selector" type="checkbox" id="price-selector-71" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+            <a href="http://res.cloudinary.com/yorthehunter/image/upload/v1425437691/jd9wvv0j5zfebp9wlino.jpg" target="_blank">
+              0
+            </a>
+          
+            <a href="http://res.cloudinary.com/yorthehunter/image/upload/v1425437690/nnmch3wjh2icnctupwf2.jpg" target="_blank">
+              1
+            </a>
+          
+            <a href="http://res.cloudinary.com/yorthehunter/image/upload/v1425437690/duzcjle7af4foj5jcmgq.jpg" target="_blank">
+              2
+            </a>
+          
+            <a href="http://res.cloudinary.com/yorthehunter/image/upload/v1425437689/bddb0nvndunnnk0e0mzn.jpg" target="_blank">
+              3
+            </a>
+          
+        </td>
+        <td>Labyrinth</td>
+        <td class="js-date">11-09-14</td>
+        <td><a href="#" class="js-system-select" data-system="famicom">famicom</a></td>
+        <td>cib</td>
+        <td class="js-price text-r">35.0</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-72">
+            <input class="js-price-selector" type="checkbox" id="price-selector-72" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Dark Half</td>
+        <td class="js-date">11-08-14</td>
+        <td><a href="#" class="js-system-select" data-system="sfc">sfc</a></td>
+        <td>cib</td>
+        <td class="js-price text-r">4.75</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-73">
+            <input class="js-price-selector" type="checkbox" id="price-selector-73" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Breath of Fire</td>
+        <td class="js-date">11-15-14</td>
+        <td><a href="#" class="js-system-select" data-system="sfc">sfc</a></td>
+        <td>cib</td>
+        <td class="js-price text-r">5.0</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-74">
+            <input class="js-price-selector" type="checkbox" id="price-selector-74" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Seiken Densetsu II</td>
+        <td class="js-date">03-04-15</td>
+        <td><a href="#" class="js-system-select" data-system="sfc">sfc</a></td>
+        <td>cib</td>
+        <td class="js-price text-r">5.09</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-75">
+            <input class="js-price-selector" type="checkbox" id="price-selector-75" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Front Mission</td>
+        <td class="js-date">11-05-14</td>
+        <td><a href="#" class="js-system-select" data-system="sfc">sfc</a></td>
+        <td>cib</td>
+        <td class="js-price text-r">4.25</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-76">
+            <input class="js-price-selector" type="checkbox" id="price-selector-76" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Front Mission Gun Hazard</td>
+        <td class="js-date">11-05-14</td>
+        <td><a href="#" class="js-system-select" data-system="sfc">sfc</a></td>
+        <td>cib</td>
+        <td class="js-price text-r">4.25</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-77">
+            <input class="js-price-selector" type="checkbox" id="price-selector-77" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Chrono Trigger</td>
+        <td class="js-date">10-22-14</td>
+        <td><a href="#" class="js-system-select" data-system="sfc">sfc</a></td>
+        <td>cib</td>
+        <td class="js-price text-r">16.99</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-78">
+            <input class="js-price-selector" type="checkbox" id="price-selector-78" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Star Ocean</td>
+        <td class="js-date">11-09-14</td>
+        <td><a href="#" class="js-system-select" data-system="sfc">sfc</a></td>
+        <td>cib</td>
+        <td class="js-price text-r">15.5</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-79">
+            <input class="js-price-selector" type="checkbox" id="price-selector-79" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Mickey's Magical Adventure</td>
+        <td class="js-date">11-05-14</td>
+        <td><a href="#" class="js-system-select" data-system="sfc">sfc</a></td>
+        <td>cib</td>
+        <td class="js-price text-r">9.5</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-80">
+            <input class="js-price-selector" type="checkbox" id="price-selector-80" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Mother 2</td>
+        <td class="js-date">10-23-14</td>
+        <td><a href="#" class="js-system-select" data-system="sfc">sfc</a></td>
+        <td>cib</td>
+        <td class="js-price text-r">22.5</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-81">
+            <input class="js-price-selector" type="checkbox" id="price-selector-81" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Final Fantasy Mystic Quest</td>
+        <td class="js-date">11-02-14</td>
+        <td><a href="#" class="js-system-select" data-system="sfc">sfc</a></td>
+        <td>cib</td>
+        <td class="js-price text-r">14.99</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-82">
+            <input class="js-price-selector" type="checkbox" id="price-selector-82" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+            <a href="http://res.cloudinary.com/yorthehunter/image/upload/v1425267884/ikmaettco0tzaflw8tiu.jpg" target="_blank">
+              0
+            </a>
+          
+            <a href="http://res.cloudinary.com/yorthehunter/image/upload/v1425267887/ieyfqqaooqunxgovgpbu.jpg" target="_blank">
+              1
+            </a>
+          
+            <a href="http://res.cloudinary.com/yorthehunter/image/upload/v1425267885/fxdxtmdbo1fyg8edfvgn.jpg" target="_blank">
+              2
+            </a>
+          
+            <a href="http://res.cloudinary.com/yorthehunter/image/upload/v1425267882/mg1wmujsy6bjeeyxlvde.jpg" target="_blank">
+              3
+            </a>
+          
+        </td>
+        <td>Final Fantasy IV</td>
+        <td class="js-date">10-12-14</td>
+        <td><a href="#" class="js-system-select" data-system="sfc">sfc</a></td>
+        <td>cib</td>
+        <td class="js-price text-r">19.0</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-83">
+            <input class="js-price-selector" type="checkbox" id="price-selector-83" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Final Fantasy V</td>
+        <td class="js-date">10-12-14</td>
+        <td><a href="#" class="js-system-select" data-system="sfc">sfc</a></td>
+        <td>cib</td>
+        <td class="js-price text-r">19.0</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-84">
+            <input class="js-price-selector" type="checkbox" id="price-selector-84" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Final Fantasy VI</td>
+        <td class="js-date">10-12-14</td>
+        <td><a href="#" class="js-system-select" data-system="sfc">sfc</a></td>
+        <td>cib</td>
+        <td class="js-price text-r">19.0</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-85">
+            <input class="js-price-selector" type="checkbox" id="price-selector-85" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Final Fantasy VI</td>
+        <td class="js-date">11-08-14</td>
+        <td><a href="#" class="js-system-select" data-system="sfc">sfc</a></td>
+        <td>box</td>
+        <td class="js-price text-r">13.6</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-86">
+            <input class="js-price-selector" type="checkbox" id="price-selector-86" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Final Fantasy VI</td>
+        <td class="js-date">05-03-15</td>
+        <td><a href="#" class="js-system-select" data-system="sfc">sfc</a></td>
+        <td>box</td>
+        <td class="js-price text-r">6.5</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-87">
+            <input class="js-price-selector" type="checkbox" id="price-selector-87" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Dragon Quest I and II</td>
+        <td class="js-date">04-29-15</td>
+        <td><a href="#" class="js-system-select" data-system="sfc">sfc</a></td>
+        <td>cib</td>
+        <td class="js-price text-r">16.0</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-88">
+            <input class="js-price-selector" type="checkbox" id="price-selector-88" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Dragon Quest III</td>
+        <td class="js-date">04-29-15</td>
+        <td><a href="#" class="js-system-select" data-system="sfc">sfc</a></td>
+        <td>cib</td>
+        <td class="js-price text-r">8.5</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-89">
+            <input class="js-price-selector" type="checkbox" id="price-selector-89" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Dragon Quest V</td>
+        <td class="js-date">10-12-14</td>
+        <td><a href="#" class="js-system-select" data-system="sfc">sfc</a></td>
+        <td>cib</td>
+        <td class="js-price text-r">12.0</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-90">
+            <input class="js-price-selector" type="checkbox" id="price-selector-90" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Dragon Quest V</td>
+        <td class="js-date">05-03-15</td>
+        <td><a href="#" class="js-system-select" data-system="sfc">sfc</a></td>
+        <td>cib</td>
+        <td class="js-price text-r">5.04</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-91">
+            <input class="js-price-selector" type="checkbox" id="price-selector-91" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Dragon Quest VI</td>
+        <td class="js-date">10-12-14</td>
+        <td><a href="#" class="js-system-select" data-system="sfc">sfc</a></td>
+        <td>cib</td>
+        <td class="js-price text-r">15.0</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-92">
+            <input class="js-price-selector" type="checkbox" id="price-selector-92" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Dragon Quest VI</td>
+        <td class="js-date">05-03-15</td>
+        <td><a href="#" class="js-system-select" data-system="sfc">sfc</a></td>
+        <td>cib</td>
+        <td class="js-price text-r">6.5</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-93">
+            <input class="js-price-selector" type="checkbox" id="price-selector-93" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Dragon Quest VI</td>
+        <td class="js-date">05-21-15</td>
+        <td><a href="#" class="js-system-select" data-system="sfc">sfc</a></td>
+        <td>cib</td>
+        <td class="js-price text-r">2.25</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-94">
+            <input class="js-price-selector" type="checkbox" id="price-selector-94" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Mother 2</td>
+        <td class="js-date">10-23-14</td>
+        <td><a href="#" class="js-system-select" data-system="sfc">sfc</a></td>
+        <td>instructions</td>
+        <td class="js-price text-r">16.5</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-95">
+            <input class="js-price-selector" type="checkbox" id="price-selector-95" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Rockman X</td>
+        <td class="js-date">11-01-14</td>
+        <td><a href="#" class="js-system-select" data-system="sfc">sfc</a></td>
+        <td></td>
+        <td class="js-price text-r">8.66</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-96">
+            <input class="js-price-selector" type="checkbox" id="price-selector-96" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Rockman X2</td>
+        <td class="js-date">11-01-14</td>
+        <td><a href="#" class="js-system-select" data-system="sfc">sfc</a></td>
+        <td></td>
+        <td class="js-price text-r">8.66</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-97">
+            <input class="js-price-selector" type="checkbox" id="price-selector-97" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Soul Blader</td>
+        <td class="js-date">10-28-14</td>
+        <td><a href="#" class="js-system-select" data-system="sfc">sfc</a></td>
+        <td></td>
+        <td class="js-price text-r">2.25</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-98">
+            <input class="js-price-selector" type="checkbox" id="price-selector-98" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Dragon Ball Z</td>
+        <td class="js-date">11-02-14</td>
+        <td><a href="#" class="js-system-select" data-system="sfc">sfc</a></td>
+        <td></td>
+        <td class="js-price text-r">2.66</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-99">
+            <input class="js-price-selector" type="checkbox" id="price-selector-99" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Dragon Ball Z 2</td>
+        <td class="js-date">11-02-14</td>
+        <td><a href="#" class="js-system-select" data-system="sfc">sfc</a></td>
+        <td></td>
+        <td class="js-price text-r">2.66</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-100">
+            <input class="js-price-selector" type="checkbox" id="price-selector-100" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Dragon Ball Z 3</td>
+        <td class="js-date">11-02-14</td>
+        <td><a href="#" class="js-system-select" data-system="sfc">sfc</a></td>
+        <td></td>
+        <td class="js-price text-r">2.66</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-101">
+            <input class="js-price-selector" type="checkbox" id="price-selector-101" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Super Mario Kart</td>
+        <td class="js-date">11-01-14</td>
+        <td><a href="#" class="js-system-select" data-system="sfc">sfc</a></td>
+        <td></td>
+        <td class="js-price text-r">3.5</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-102">
+            <input class="js-price-selector" type="checkbox" id="price-selector-102" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Super Mario RPG</td>
+        <td class="js-date">11-01-14</td>
+        <td><a href="#" class="js-system-select" data-system="sfc">sfc</a></td>
+        <td></td>
+        <td class="js-price text-r">3.5</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-103">
+            <input class="js-price-selector" type="checkbox" id="price-selector-103" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Super Mario World</td>
+        <td class="js-date">11-01-14</td>
+        <td><a href="#" class="js-system-select" data-system="sfc">sfc</a></td>
+        <td></td>
+        <td class="js-price text-r">3.5</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-104">
+            <input class="js-price-selector" type="checkbox" id="price-selector-104" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Street Figher II</td>
+        <td class="js-date">11-01-14</td>
+        <td><a href="#" class="js-system-select" data-system="sfc">sfc</a></td>
+        <td></td>
+        <td class="js-price text-r">8.66</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-105">
+            <input class="js-price-selector" type="checkbox" id="price-selector-105" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Super Off-road the Baja</td>
+        <td class="js-date">12-01-14</td>
+        <td><a href="#" class="js-system-select" data-system="snes">snes</a></td>
+        <td></td>
+        <td class="js-price text-r">3.0</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-106">
+            <input class="js-price-selector" type="checkbox" id="price-selector-106" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>The Legend of Zelda: A Link to the Past</td>
+        <td class="js-date"></td>
+        <td><a href="#" class="js-system-select" data-system="snes">snes</a></td>
+        <td></td>
+        <td class="js-price text-r"></td>
+        <td class="js-price-selector-parent">
+          
+            <span class="line3">&nbsp;</span>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Top Gear</td>
+        <td class="js-date">09-29-14</td>
+        <td><a href="#" class="js-system-select" data-system="snes">snes</a></td>
+        <td></td>
+        <td class="js-price text-r">5.15</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-108">
+            <input class="js-price-selector" type="checkbox" id="price-selector-108" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Super Metroid</td>
+        <td class="js-date"></td>
+        <td><a href="#" class="js-system-select" data-system="snes">snes</a></td>
+        <td></td>
+        <td class="js-price text-r"></td>
+        <td class="js-price-selector-parent">
+          
+            <span class="line3">&nbsp;</span>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Yoshi's Island</td>
+        <td class="js-date"></td>
+        <td><a href="#" class="js-system-select" data-system="snes">snes</a></td>
+        <td></td>
+        <td class="js-price text-r"></td>
+        <td class="js-price-selector-parent">
+          
+            <span class="line3">&nbsp;</span>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Mortal Kombat</td>
+        <td class="js-date"></td>
+        <td><a href="#" class="js-system-select" data-system="snes">snes</a></td>
+        <td>box</td>
+        <td class="js-price text-r"></td>
+        <td class="js-price-selector-parent">
+          
+            <span class="line3">&nbsp;</span>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Shadowrun</td>
+        <td class="js-date">12-15-14</td>
+        <td><a href="#" class="js-system-select" data-system="snes">snes</a></td>
+        <td>cib</td>
+        <td class="js-price text-r">45.0</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-112">
+            <input class="js-price-selector" type="checkbox" id="price-selector-112" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Street Fighter 2 Turbo</td>
+        <td class="js-date"></td>
+        <td><a href="#" class="js-system-select" data-system="snes">snes</a></td>
+        <td>cib</td>
+        <td class="js-price text-r"></td>
+        <td class="js-price-selector-parent">
+          
+            <span class="line3">&nbsp;</span>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Sim City</td>
+        <td class="js-date">03-02-15</td>
+        <td><a href="#" class="js-system-select" data-system="snes">snes</a></td>
+        <td>cib</td>
+        <td class="js-price text-r">7.49</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-114">
+            <input class="js-price-selector" type="checkbox" id="price-selector-114" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Super Mario Kart</td>
+        <td class="js-date"></td>
+        <td><a href="#" class="js-system-select" data-system="snes">snes</a></td>
+        <td>cib</td>
+        <td class="js-price text-r"></td>
+        <td class="js-price-selector-parent">
+          
+            <span class="line3">&nbsp;</span>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Illusion of Gaia</td>
+        <td class="js-date"></td>
+        <td><a href="#" class="js-system-select" data-system="snes">snes</a></td>
+        <td>cib</td>
+        <td class="js-price text-r"></td>
+        <td class="js-price-selector-parent">
+          
+            <span class="line3">&nbsp;</span>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Super Mario All-stars</td>
+        <td class="js-date"></td>
+        <td><a href="#" class="js-system-select" data-system="snes">snes</a></td>
+        <td>box</td>
+        <td class="js-price text-r"></td>
+        <td class="js-price-selector-parent">
+          
+            <span class="line3">&nbsp;</span>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Pac Man 2 the New Adventures</td>
+        <td class="js-date">12-01-14</td>
+        <td><a href="#" class="js-system-select" data-system="snes">snes</a></td>
+        <td></td>
+        <td class="js-price text-r">4.0</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-118">
+            <input class="js-price-selector" type="checkbox" id="price-selector-118" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Nintendo 64 Console</td>
+        <td class="js-date">02-15-15</td>
+        <td><a href="#" class="js-system-select" data-system="n64">n64</a></td>
+        <td></td>
+        <td class="js-price text-r">20.0</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-119">
+            <input class="js-price-selector" type="checkbox" id="price-selector-119" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Super Mario 64</td>
+        <td class="js-date">02-15-15</td>
+        <td><a href="#" class="js-system-select" data-system="n64">n64</a></td>
+        <td></td>
+        <td class="js-price text-r">10.0</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-120">
+            <input class="js-price-selector" type="checkbox" id="price-selector-120" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Super Mario Kart 64</td>
+        <td class="js-date">02-15-15</td>
+        <td><a href="#" class="js-system-select" data-system="n64">n64</a></td>
+        <td></td>
+        <td class="js-price text-r">10.0</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-121">
+            <input class="js-price-selector" type="checkbox" id="price-selector-121" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Phantasy Star IV</td>
+        <td class="js-date">09-24-14</td>
+        <td><a href="#" class="js-system-select" data-system="genesis">genesis</a></td>
+        <td></td>
+        <td class="js-price text-r">18.07</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-122">
+            <input class="js-price-selector" type="checkbox" id="price-selector-122" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Flashback the Quest for Identity</td>
+        <td class="js-date">10-05-14</td>
+        <td><a href="#" class="js-system-select" data-system="genesis">genesis</a></td>
+        <td>cib</td>
+        <td class="js-price text-r">1.25</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-123">
+            <input class="js-price-selector" type="checkbox" id="price-selector-123" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Metroid Fusion</td>
+        <td class="js-date">09-26-14</td>
+        <td><a href="#" class="js-system-select" data-system="gba">gba</a></td>
+        <td></td>
+        <td class="js-price text-r">11.5</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-124">
+            <input class="js-price-selector" type="checkbox" id="price-selector-124" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Phantasy Star Collection</td>
+        <td class="js-date">09-22-14</td>
+        <td><a href="#" class="js-system-select" data-system="gba">gba</a></td>
+        <td></td>
+        <td class="js-price text-r">11.95</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-125">
+            <input class="js-price-selector" type="checkbox" id="price-selector-125" />
+          </label>
+          
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          
+        </td>
+        <td>Dragon Quest III</td>
+        <td class="js-date">04-28-15</td>
+        <td><a href="#" class="js-system-select" data-system="gbc">gbc</a></td>
+        <td>cib</td>
+        <td class="js-price text-r">6.09</td>
+        <td class="js-price-selector-parent">
+          
+          <label class="btn btn-link px2 mr0" for="price-selector-126">
+            <input class="js-price-selector" type="checkbox" id="price-selector-126" />
+          </label>
+          
+        </td>
+      </tr>
+      
     </tbody>
   </table>
 </div>
@@ -63,17 +2322,46 @@ layout: default
   <!--<h1 class="page-heading">Posts</h1>-->
 
   <!--<ul class="post-list">-->
-    <!--{% for post in site.posts %}-->
+    <!---->
       <!--<li>-->
-        <!--<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>-->
+        <!--<span class="post-meta">May 29, 2015</span>-->
 
         <!--<h2>-->
-          <!--<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>-->
+          <!--<a class="post-link" href="/jekyll/update/2015/05/29/welcome-to-jekyll.html">Welcome to Jekyll!</a>-->
         <!--</h2>-->
       <!--</li>-->
-    <!--{% endfor %}-->
+    <!---->
   <!--</ul>-->
 
-  <!--<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>-->
+  <!--<p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>-->
 
 <!--</div>-->
+
+    </div>
+
+    <footer class="site-footer container">
+
+  <div class="wrapper">
+
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>Your awesome title</li>
+          <li><a href="mailto:your-email@domain.com">your-email@domain.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text"></p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
