@@ -3,10 +3,10 @@
   <channel>
     <title>Your awesome title</title>
     <description></description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 01 Jul 2015 21:28:55 -0400</pubDate>
-    <lastBuildDate>Wed, 01 Jul 2015 21:28:55 -0400</lastBuildDate>
+    <link>/jekyll-game-db//</link>
+    <atom:link href="/jekyll-game-db//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 01 Jul 2015 21:33:48 -0400</pubDate>
+    <lastBuildDate>Wed, 01 Jul 2015 21:33:48 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -27,8 +27,8 @@
 
 </description>
         <pubDate>Fri, 29 May 2015 07:56:59 -0400</pubDate>
-        <link>/jekyll/update/2015/05/29/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">/jekyll/update/2015/05/29/welcome-to-jekyll.html</guid>
+        <link>/jekyll-game-db//jekyll/update/2015/05/29/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">/jekyll-game-db//jekyll/update/2015/05/29/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
