@@ -1,0 +1,20 @@
+{
+  "name": "humblekit-experiment",
+  "version": "0.0.0",
+  "homepage": "http://yorthehunter.github.io/humblekit-experiment/",
+  "authors": [
+    "yorthehunter <boru.design@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "humblekit": "git@github.com:yorthehunter/humblekit.git#~0.4.4",
+    "polymer": "Polymer/polymer#^1.0.0"
+  }
+}

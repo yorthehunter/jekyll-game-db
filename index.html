@@ -1,0 +1,79 @@
+---
+layout: default
+---
+
+<div class="container">
+  <table class="js-sortable-table tablesorter table-condensed">
+    <thead class="bg-ghost-white-dark">
+      <tr>
+        <th class="line2">Img</th>
+        <th class="line2">Name</th>
+        <th class="line2">Purchase Date</th>
+        <th class="line2">System</th>
+        <th class="line2">Includes</th>
+        <th class="line2 js-summed-price-display">Price</th>
+        <th class="text-c">
+          <label class="btn btn-link btn-sm px2 mr0" for="all-price-selector">
+            <input class="js-price-selector-all" type="checkbox" id="all-price-selector"/>
+          </label>
+        </th>
+      </tr>
+    </thead>
+    <tfoot>
+      <td colspan="5" class="text-r">Total:</td>
+      <td class="js-total-price text-r"></td>
+      <td></td>
+    </tfoot>
+    <tbody>
+      {% for game in site.data.games %}
+      <tr>
+        <td>
+          {% for image in game.images %}
+            <a href="{{ image.url }}" target="_blank">
+              {{ forloop.index | minus: 1 }}
+            </a>
+          {% endfor %}
+        </td>
+        <td>{{ game.name }}</td>
+        <td class="js-date">{{ game.purchased_on }}</td>
+        <td><a href="#" class="js-system-select" data-system="{{ game.system }}">{{ game.system }}</a></td>
+        <td>{{ game.includes }}</td>
+        <td class="js-price text-r">{{ game.purchase_price }}</td>
+        <td class="js-price-selector-parent">
+          {% if game.purchase_price != nil %}
+          <label class="btn btn-link px2 mr0" for="price-selector-{{ forloop.index }}">
+            <input class="js-price-selector" type="checkbox" id="price-selector-{{ forloop.index }}" />
+          </label>
+          {% else %}
+            <span class="line3">&nbsp;</span>
+          {% endif %}
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+
+
+
+
+<!--<div class="home container">-->
+
+  <!--<h1 class="page-heading">Posts</h1>-->
+
+  <!--<ul class="post-list">-->
+    <!--{% for post in site.posts %}-->
+      <!--<li>-->
+        <!--<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>-->
+
+        <!--<h2>-->
+          <!--<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>-->
+        <!--</h2>-->
+      <!--</li>-->
+    <!--{% endfor %}-->
+  <!--</ul>-->
+
+  <!--<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>-->
+
+<!--</div>-->
